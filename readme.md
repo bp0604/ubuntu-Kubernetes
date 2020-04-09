@@ -46,7 +46,7 @@ sudo apt-mark hold kubelet kubeadm kubectl
 ## 3 kubeadm 初始化
 ### 3.1 初始化操作
 ```
-sudo kubeadm init --image-repository registry.aliyuncs.com/google_containers
+sudo kubeadm init --image-repository registry.aliyuncs.com/google_containers --kubernetes-version v1.18.1 --pod-network-cidr=10.240.0.0/16
 ````
 
 ### 3.2 配置非 root 的操作
