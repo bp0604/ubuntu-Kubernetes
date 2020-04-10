@@ -1,4 +1,4 @@
-# Ubuntu 上安装单机版Kubernetes
+# Ubuntu 上安装 Kubernetes
 
 ## 1 系统准备
 
