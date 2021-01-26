@@ -35,7 +35,7 @@ sudo echo "deb https://mirrors.aliyun.com/kubernetes/apt/ kubernetes-xenial main
 ### 2.3 安装 kubeadm 及 kubelet 等工具
 ```
 sudo apt-get update
-sudo apt-get install -y kubelet kubeadm kubectl
+sudo apt-get install -y --allow-unauthenticated kubelet kubeadm kubectl
 ```
 
 保持版本取消自动更新，这里也可以省略
